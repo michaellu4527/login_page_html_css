@@ -1,0 +1,63 @@
+/*=====================================================
+	Setting size and position of login box
+=======================================================*/
+
+.container {
+	margin: 50px auto;
+	width: 640px;
+}
+
+.login {
+	position: relative;
+	margin: 0 auto;						/*Centers login box horizontally*/
+	padding: 20px 20px 20px;			/*bottom, left, right, top*/
+	width: 310px;
+}
+
+/*===========================================================
+	Setting alignment and color of interface buttons and text
+=============================================================*/
+
+.login p.submit{						/*aligning submit button*/
+	text-align: right;
+}
+
+.login-help {						/*aliging and styling forgetting password prompt*/
+	margin: 20px 0;
+	font-size: 11px;
+	color: white;
+	text-align: center;
+	text-shadow: 0 1px #2a85a1;
+}
+
+.login-help a {
+	color: #cce7fa;
+	text-decoration: none;
+}
+
+.login-help a:hover {				/*Adds an underline to link once hovered over*/
+	text-decoration: underline;
+}
+
+:-moz-placeholder {					/*Adjusting color of username and password fields*/
+	color: #c9c9c9 !important;
+	font-size: 13px;
+}
+
+::-webkit-input-placeholder {
+	color: #ccc;
+	font-size: 13px;
+}
+
+/*===========================================================
+	Setting alignment and color of interface buttons and text
+=============================================================*/
+
+
+
+
+
+
+
+
+
