@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> Login to Fantasy Site! </title>													<!--Title of site-->
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div class="container">
+			<div class="login">
+				<h1> Login </h1>
+				<form method="post" action=""> 
+					<p><input type="text" name="login" value="" placeholder="Username" </p>				<!--Establishing Username field-->
+					<p><input type="password" name="password" value="" placeholder="Password" </p>		<!--Establishing password field-->
+					<p class="remember_me">																<!--Establishing class for remembering password prompt-->
+						<label>
+							<label>
+								<input type="checkbox" name="remember_me" id="remember_me">		<!--Creating Remember me checkbox-->
+							</label>
+						</label>
+					</p>
+					<p class="submit"><input type="submit" name="commit" value="Login"></p>		<!--Creating Login button-->
+				</form>
+			</div>
+			
+			<div class="login-help">
+				<p>Forgot your password? <a href="#">Click here to reset it</a>.</p>			<!--Defines link for resetting password-->
+			</div>
+		</div>
+	</body>
+</html>
