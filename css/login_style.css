@@ -24,8 +24,8 @@
 }
 
 .login-help {						/*aliging and styling forgetting password prompt*/
-	margin: 20px 0;
-	font-size: 11px;
+	margin: 20px 0;					/*Margin > Outline > Border > Padding > Content */
+	font-size: 11px;				
 	color: white;
 	text-align: center;
 	text-shadow: 0 1px #2a85a1;
@@ -66,7 +66,7 @@
 	right: -8px;
 	bottom: -8px;
 	left: -8px;
-	z-index: -1;
+	z-index: -1;								/*lowers priority*/
 	background: rgba(0, 0, 0, 0.08);			/*"a" value specifies opacity*/
 	border-radius: 8px;
 }
@@ -81,13 +81,13 @@
 	text-shadow: 0 1px white;
 	background: #f3f3f3;
 	border-bottom: 1px solid #cfcfcf;
-	border-radius: 3px 3px 0 0;
-	background-image: -webkit-linear-gradient(top, whiteffd, #eef2f5);		
+	border-radius: 3px 3px 0 0;											/*Curves corners*/
+	background-image: -webkit-linear-gradient(top, whiteffd, #eef2f5);		/*For different browsers*/
 	background-image: -moz-linear-gradient(top, whiteffd, #eef2f5);
 	background-image: -o-linear-gradient(top, whiteffd, #eef2f5);
-	background-image: linear-gradient(top, whiteffd, #eef2f5);
+	background-image: linear-gradient(top, whiteffd, #eef2f5);				/*Creates a gradual color changing effect to top from white to gray*/
 	-webkit-box-shadow: 0 1px whitesmoke;
-	box-shadow: 0 1px whitesmoke;	
+	box-shadow: 0 1px whitesmoke;										/*Whitesmoke is a color*/
 }	
 
 .login p {
@@ -154,7 +154,7 @@ input[type=text], input[type=password]:focus{			/*Focuses input fields to remove
 }
 
 input[type=submit]{									/*Adjusting sizing and coloring of Submit button*/
-	padding: 0 18px;			
+	padding: 0 18px;								/*Adjusting space between element and its border*/
 	height: 29px;
 	font-size: 12px;
 	font-weight: bold;
